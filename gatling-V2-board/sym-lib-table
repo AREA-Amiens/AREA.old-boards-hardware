@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name gatling-V2-board-rescue)(type Legacy)(uri ${KIPRJMOD}/gatling-V2-board-rescue.lib)(options "")(descr ""))
+)
