@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Carte Principale")(type KiCad)(uri "$(KIPRJMOD)/Carte Principale.pretty")(options "")(descr ""))
+)
