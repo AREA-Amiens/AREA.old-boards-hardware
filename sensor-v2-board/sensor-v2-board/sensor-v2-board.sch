@@ -202,7 +202,7 @@ F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J8
+L sensor-v2-board-rescue:USB_B_Micro-Connector J8
 U 1 1 60CFC842
 P 9250 2800
 F 0 "J8" H 9307 3267 50  0000 C CNN

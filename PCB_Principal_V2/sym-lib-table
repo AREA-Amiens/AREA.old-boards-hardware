@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Carte_Principale-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Carte_Principale-eagle-import.lib)(options "")(descr ""))
+)

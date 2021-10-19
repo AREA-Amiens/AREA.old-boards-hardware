@@ -1,0 +1,1711 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 13089 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9500 3300 9800 3300
+Wire Wire Line
+	9100 3400 9100 3300
+Wire Wire Line
+	9100 3300 9500 3300
+Wire Wire Line
+	9100 3000 9100 3300
+Connection ~ 9500 3300
+Connection ~ 9100 3300
+Text Label 9500 3300 0    10   ~ 0
+GND
+Wire Wire Line
+	1800 3700 1800 4100
+Wire Wire Line
+	2600 4100 1800 4100
+Wire Wire Line
+	2800 4200 2800 4100
+Wire Wire Line
+	2800 4100 2600 4100
+Connection ~ 2600 4100
+Text Label 1800 3700 0    10   ~ 0
+GND
+Wire Wire Line
+	3900 5500 3900 5600
+Wire Wire Line
+	4200 5500 3900 5500
+Wire Wire Line
+	3800 5500 3900 5500
+Wire Wire Line
+	4200 5500 4200 5700
+Wire Wire Line
+	4200 5700 4600 5700
+Wire Wire Line
+	3600 5500 3600 5400
+Wire Wire Line
+	3600 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 5500
+Connection ~ 3900 5500
+Text Label 3900 5500 0    10   ~ 0
+GND
+Wire Wire Line
+	11800 5800 10900 5800
+Wire Wire Line
+	11800 5800 11800 6400
+Wire Wire Line
+	12000 6400 12000 6200
+Wire Wire Line
+	12000 6400 11800 6400
+Wire Wire Line
+	10900 6400 11800 6400
+Wire Wire Line
+	12000 6400 12000 6500
+Connection ~ 11800 6400
+Connection ~ 12000 6400
+Text Label 11800 5800 0    10   ~ 0
+GND
+Wire Wire Line
+	11800 4900 10900 4900
+Wire Wire Line
+	10900 4300 11800 4300
+Wire Wire Line
+	11800 4300 11800 4900
+Wire Wire Line
+	12000 4900 12000 4700
+Wire Wire Line
+	11800 4900 12000 4900
+Wire Wire Line
+	12000 5000 12000 4900
+Connection ~ 11800 4900
+Connection ~ 12000 4900
+Text Label 11800 4900 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 6100 2300 6000
+Wire Wire Line
+	2300 6000 2100 6000
+Wire Wire Line
+	2100 6000 1600 6000
+Connection ~ 2100 6000
+Text Label 2300 6100 0    10   ~ 0
+GND
+Wire Wire Line
+	7300 3400 7200 3400
+Wire Wire Line
+	7200 3400 7200 3500
+Text Label 7300 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	1100 2600 1300 2600
+Wire Wire Line
+	1300 2600 1300 2800
+Wire Wire Line
+	1700 2800 1700 2600
+Wire Wire Line
+	1300 2800 1700 2800
+Wire Wire Line
+	2700 2600 2400 2600
+Wire Wire Line
+	2400 2600 2400 2800
+Wire Wire Line
+	1700 2800 2100 2800
+Wire Wire Line
+	2100 2800 2400 2800
+Connection ~ 1300 2800
+Connection ~ 1700 2800
+Connection ~ 2100 2800
+Text Label 1100 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	7600 4800 7600 5200
+Wire Wire Line
+	7600 5200 7600 5500
+Wire Wire Line
+	7600 4800 7700 4800
+Wire Wire Line
+	7700 5200 7600 5200
+Connection ~ 7600 5200
+Text Label 7600 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 5100 2100 5100
+Wire Wire Line
+	2100 5100 1600 5100
+Wire Wire Line
+	2300 5100 2300 5200
+Connection ~ 2100 5100
+Text Label 2300 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	3700 2600 3700 2500
+Wire Wire Line
+	4400 2500 4100 2500
+Wire Wire Line
+	4100 2300 4100 2500
+Wire Wire Line
+	4400 2300 4400 2500
+Wire Wire Line
+	4700 2500 4400 2500
+Wire Wire Line
+	3700 2500 4100 2500
+Connection ~ 4400 2500
+Connection ~ 4100 2500
+Text Label 3700 2600 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 3900 6600 3900
+Wire Wire Line
+	6600 3900 6600 4000
+Text Label 6300 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	6400 5700 6500 5700
+Wire Wire Line
+	6500 5700 6500 5800
+Text Label 6400 5700 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 2300 9100 2400
+Wire Wire Line
+	9100 2400 9800 2400
+Wire Wire Line
+	9100 2700 9100 2400
+Connection ~ 9100 2400
+Text Label 9100 2300 0    10   ~ 0
++3V3
+Wire Wire Line
+	8500 2300 8800 2300
+Wire Wire Line
+	8500 2300 8400 2300
+Wire Wire Line
+	8400 2300 8400 2200
+Connection ~ 8500 2300
+Text Label 8500 2300 0    10   ~ 0
++3V3
+Wire Wire Line
+	3900 6000 3900 5900
+Wire Wire Line
+	4200 6000 3900 6000
+Wire Wire Line
+	4600 5800 4200 5800
+Wire Wire Line
+	4200 5800 4200 6000
+Wire Wire Line
+	3800 6000 3900 6000
+Wire Wire Line
+	3800 6000 3800 6100
+Wire Wire Line
+	3800 6100 3600 6100
+Wire Wire Line
+	3600 6100 3600 6000
+Connection ~ 3900 6000
+Text Label 3900 6000 0    10   ~ 0
++3V3
+Wire Wire Line
+	2300 5600 2300 5700
+Wire Wire Line
+	2300 5700 2100 5700
+Wire Wire Line
+	2100 5700 1600 5700
+Connection ~ 2100 5700
+Text Label 2300 5600 0    10   ~ 0
++3V3
+Wire Wire Line
+	1600 4800 2100 4800
+Wire Wire Line
+	2100 4800 2300 4800
+Wire Wire Line
+	2300 4800 2300 4600
+Connection ~ 2100 4800
+Text Label 1600 4800 0    10   ~ 0
++3V3
+Wire Wire Line
+	6700 2700 6700 2600
+Wire Wire Line
+	6700 2600 7000 2600
+Wire Wire Line
+	7000 2600 7000 2700
+Wire Wire Line
+	6700 2600 6700 2500
+Wire Wire Line
+	6300 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 2600
+Wire Wire Line
+	6500 2600 6700 2600
+Connection ~ 6700 2600
+Text Label 6700 2700 0    10   ~ 0
++3V3
+Wire Wire Line
+	9600 4600 9100 4600
+Text Label 9100 4600 0    70   ~ 0
+RESET_G
+Wire Wire Line
+	4100 3800 4700 3800
+Text Label 4100 3800 0    70   ~ 0
+RESET_G
+Wire Wire Line
+	9100 4700 9600 4700
+Text Label 9100 4700 0    70   ~ 0
+SLEEP_G
+Wire Wire Line
+	4100 3700 4700 3700
+Text Label 4100 3700 0    70   ~ 0
+SLEEP_G
+Wire Wire Line
+	9100 4800 9600 4800
+Text Label 9100 4800 0    70   ~ 0
+STEP_G
+Wire Wire Line
+	4100 3600 4700 3600
+Text Label 4100 3600 0    70   ~ 0
+STEP_G
+Wire Wire Line
+	9100 4900 9600 4900
+Text Label 9100 4900 0    70   ~ 0
+DIR_G
+Wire Wire Line
+	4100 2900 4700 2900
+Text Label 4200 3500 0    70   ~ 0
+DIR_G
+Wire Wire Line
+	9100 6100 9600 6100
+Text Label 9100 6100 0    70   ~ 0
+RESET_D
+Wire Wire Line
+	4100 4100 4700 4100
+Text Label 4200 3400 0    70   ~ 0
+RESET_D
+Wire Wire Line
+	9100 6200 9600 6200
+Text Label 9100 6200 0    70   ~ 0
+SLEEP_D
+Wire Wire Line
+	4100 3300 4700 3300
+Text Label 4100 3300 0    70   ~ 0
+SLEEP_D
+Wire Wire Line
+	9100 6300 9600 6300
+Text Label 9100 6300 0    70   ~ 0
+STEP_D
+Wire Wire Line
+	4100 3200 4700 3200
+Text Label 4100 3200 0    70   ~ 0
+STEP_D
+Wire Wire Line
+	9100 6400 9600 6400
+Text Label 9100 6400 0    70   ~ 0
+DIR_D
+Wire Wire Line
+	4100 3100 4700 3100
+Text Label 4100 3100 0    70   ~ 0
+DIR_D
+Wire Wire Line
+	1600 4700 1700 4700
+Text Label 1700 4700 0    70   ~ 0
+S1_D
+Wire Wire Line
+	4700 4300 4100 4300
+Text Label 4100 4300 0    70   ~ 0
+S1_D
+Wire Wire Line
+	1700 5000 1600 5000
+Text Label 1700 5000 0    70   ~ 0
+S3_D
+Wire Wire Line
+	4100 4500 4700 4500
+Text Label 4100 4500 0    70   ~ 0
+S3_D
+Wire Wire Line
+	1700 5600 1600 5600
+Text Label 1700 5600 0    70   ~ 0
+S1_G
+Wire Wire Line
+	4100 4600 4700 4600
+Text Label 4100 4600 0    70   ~ 0
+S1_G
+Wire Wire Line
+	1700 5900 1600 5900
+Text Label 1700 5900 0    70   ~ 0
+S3_G
+Wire Wire Line
+	4100 4800 4700 4800
+Text Label 4100 4800 0    70   ~ 0
+S3_G
+Wire Wire Line
+	2800 3400 2800 3300
+Wire Wire Line
+	2400 3400 2600 3400
+Wire Wire Line
+	2600 3400 2800 3400
+Connection ~ 2600 3400
+Text Label 2800 3400 0    10   ~ 0
++12V
+Wire Wire Line
+	10900 5700 12000 5700
+Wire Wire Line
+	12000 5700 12000 5600
+Wire Wire Line
+	12000 5900 12000 5700
+Connection ~ 12000 5700
+Text Label 10900 5700 0    10   ~ 0
++12V
+Wire Wire Line
+	10900 4200 12000 4200
+Wire Wire Line
+	12000 4200 12000 4100
+Wire Wire Line
+	12000 4400 12000 4200
+Connection ~ 12000 4200
+Text Label 10900 4200 0    10   ~ 0
++12V
+Wire Wire Line
+	7700 4900 7500 4900
+Wire Wire Line
+	7700 5300 7500 5300
+Wire Wire Line
+	7500 5300 7500 4900
+Wire Wire Line
+	7500 4900 7500 4700
+Connection ~ 7500 4900
+Text Label 7700 4900 0    10   ~ 0
++12V
+Wire Wire Line
+	4600 5900 4500 5900
+Text Label 4500 5900 2    70   ~ 0
+C_RX
+Wire Wire Line
+	4200 3500 4700 3500
+Text Label 4200 3000 0    70   ~ 0
+C_RX
+Wire Wire Line
+	4600 5600 4500 5600
+Text Label 4500 5600 2    70   ~ 0
+C_TX
+Wire Wire Line
+	4200 3000 4700 3000
+Text Label 4100 2900 0    70   ~ 0
+C_TX
+Wire Wire Line
+	9300 2500 9800 2500
+Text Label 9300 2500 0    70   ~ 0
+µP_RX
+Wire Wire Line
+	8500 3200 8500 3100
+Text Label 8500 3200 3    70   ~ 0
+µP_RX
+Wire Wire Line
+	4700 2700 4200 2700
+Text Label 4200 2700 0    70   ~ 0
+µP_RX
+Wire Wire Line
+	9300 2600 9800 2600
+Text Label 9300 2600 0    70   ~ 0
+µP_TX
+Wire Wire Line
+	8800 3200 8800 3100
+Text Label 8800 3200 3    70   ~ 0
+µP_TX
+Wire Wire Line
+	4200 3400 4700 3400
+Text Label 4200 2600 0    70   ~ 0
+µP_TX
+Wire Wire Line
+	6800 5800 6800 5700
+Wire Wire Line
+	5800 5600 5800 5300
+Wire Wire Line
+	7000 5300 6900 5300
+Wire Wire Line
+	6900 5300 6800 5300
+Wire Wire Line
+	6800 5300 5800 5300
+Wire Wire Line
+	5800 5600 6000 5600
+Wire Wire Line
+	5800 5600 5800 5700
+Wire Wire Line
+	5800 5700 5700 5700
+Connection ~ 6800 5300
+Text Label 7000 5300 0    70   ~ 0
+CANH
+Connection ~ 6900 5300
+Connection ~ 5800 5600
+Wire Wire Line
+	1200 2400 1100 2400
+Text Label 1200 2400 0    70   ~ 0
+CANH
+Wire Wire Line
+	2400 2400 2700 2400
+Text Label 2400 2400 0    70   ~ 0
+CANH
+Wire Wire Line
+	5800 5800 5700 5800
+Wire Wire Line
+	5800 5800 5800 6200
+Wire Wire Line
+	7000 6200 6900 6200
+Wire Wire Line
+	6900 6200 6800 6200
+Wire Wire Line
+	6800 6200 5800 6200
+Wire Wire Line
+	6000 5800 5800 5800
+Connection ~ 6800 6200
+Text Label 7000 6200 0    70   ~ 0
+CANL
+Connection ~ 6900 6200
+Connection ~ 5800 5800
+Wire Wire Line
+	1200 2500 1100 2500
+Text Label 1200 2500 0    70   ~ 0
+CANL
+Wire Wire Line
+	2400 2500 2700 2500
+Text Label 2400 2500 0    70   ~ 0
+CANL
+Wire Wire Line
+	9800 2800 9700 2800
+Wire Wire Line
+	9700 2800 9700 2700
+Wire Wire Line
+	9700 2700 9500 2700
+Wire Wire Line
+	8800 2700 8800 2800
+Wire Wire Line
+	8500 2800 8500 2700
+Wire Wire Line
+	11200 4400 10900 4400
+Wire Wire Line
+	11200 4500 10900 4500
+Wire Wire Line
+	11200 4600 10900 4600
+Wire Wire Line
+	11200 4700 10900 4700
+Wire Wire Line
+	11200 5900 10900 5900
+Wire Wire Line
+	11200 6000 10900 6000
+Wire Wire Line
+	11200 6100 10900 6100
+Wire Wire Line
+	11200 6200 10900 6200
+Wire Wire Line
+	1600 5800 1700 5800
+Text Label 1700 5800 0    70   ~ 0
+S2_G
+Wire Wire Line
+	4100 4700 4700 4700
+Text Label 4100 4700 0    70   ~ 0
+S2_G
+Wire Wire Line
+	1600 4900 1700 4900
+Text Label 1700 4900 0    70   ~ 0
+S2_D
+Wire Wire Line
+	4100 4400 4700 4400
+Text Label 4100 4400 0    70   ~ 0
+S2_D
+Wire Wire Line
+	6300 3200 7000 3200
+Wire Wire Line
+	7000 3200 7300 3200
+Wire Wire Line
+	7000 3200 7000 3100
+Connection ~ 7000 3200
+Wire Wire Line
+	7300 3300 6700 3300
+Wire Wire Line
+	6700 3300 6300 3300
+Wire Wire Line
+	6700 3300 6700 3100
+Connection ~ 6700 3300
+Wire Wire Line
+	1800 3600 1800 3400
+Wire Wire Line
+	1800 3400 2000 3400
+Wire Wire Line
+	4100 1800 4400 1800
+Wire Wire Line
+	4100 2000 4100 1800
+Wire Wire Line
+	4400 1800 4400 2000
+Wire Wire Line
+	3700 1800 4100 1800
+Wire Wire Line
+	6300 2500 6400 2500
+Wire Wire Line
+	6400 2500 6400 1800
+Wire Wire Line
+	4400 1800 6400 1800
+Wire Wire Line
+	3700 1600 3700 1800
+Connection ~ 4100 1800
+Connection ~ 4400 1800
+Text Label 4100 1800 0    10   ~ 0
++5V
+Wire Wire Line
+	1300 2300 1300 2100
+Wire Wire Line
+	1300 2100 1300 2000
+Wire Wire Line
+	1100 2300 1300 2300
+Wire Wire Line
+	2700 2300 2400 2300
+Wire Wire Line
+	2400 2300 2400 2100
+Wire Wire Line
+	1700 2100 2100 2100
+Wire Wire Line
+	2100 2100 2400 2100
+Wire Wire Line
+	1700 2100 1700 2300
+Wire Wire Line
+	1700 2100 1300 2100
+Connection ~ 1700 2100
+Connection ~ 1300 2100
+Connection ~ 2100 2100
+Text Label 1300 2300 0    10   ~ 0
++5V
+Wire Wire Line
+	9100 4500 9600 4500
+Text Label 9100 4500 0    70   ~ 0
+M2
+Wire Wire Line
+	9100 6000 9600 6000
+Text Label 9100 6000 0    70   ~ 0
+M2
+Wire Wire Line
+	6300 3400 6900 3400
+Text Label 6300 3400 0    70   ~ 0
+M2
+Wire Wire Line
+	9100 4400 9600 4400
+Text Label 9100 4400 0    70   ~ 0
+M1
+Wire Wire Line
+	9100 5900 9600 5900
+Text Label 9100 5900 0    70   ~ 0
+M1
+Wire Wire Line
+	6300 3500 6900 3500
+Text Label 6300 3500 0    70   ~ 0
+M1
+Wire Wire Line
+	9100 4300 9600 4300
+Text Label 9100 4300 0    70   ~ 0
+M0
+Wire Wire Line
+	9100 5800 9600 5800
+Text Label 9100 5800 0    70   ~ 0
+M0
+Wire Wire Line
+	6300 3600 6900 3600
+Text Label 6300 3600 0    70   ~ 0
+M0
+Wire Wire Line
+	9100 5700 9600 5700
+Text Label 9100 5700 0    70   ~ 0
+ENABLE
+Wire Wire Line
+	9100 4200 9600 4200
+Text Label 9100 4200 0    70   ~ 0
+ENABLE
+Wire Wire Line
+	4100 4200 4700 4200
+Text Label 4100 4200 0    70   ~ 0
+ENABLE
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J1
+U 1 1 449C7C68
+P 11300 4400
+F 0 "J1" H 11400 4370 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 10970 3955 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 4400 50  0001 C CNN
+F 3 "" H 11300 4400 50  0001 C CNN
+	1    11300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J1
+U 2 1 449C7C64
+P 11300 4500
+F 0 "J1" H 11400 4470 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 4555 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 4500 50  0001 C CNN
+F 3 "" H 11300 4500 50  0001 C CNN
+	2    11300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J1
+U 3 1 449C7C60
+P 11300 4600
+F 0 "J1" H 11400 4570 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 4655 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 4600 50  0001 C CNN
+F 3 "" H 11300 4600 50  0001 C CNN
+	3    11300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J1
+U 4 1 449C7C7C
+P 11300 4700
+F 0 "J1" H 11400 4670 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 4755 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 4700 50  0001 C CNN
+F 3 "" H 11300 4700 50  0001 C CNN
+	4    11300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J2
+U 1 1 C3E76336
+P 11300 5900
+F 0 "J2" H 11400 5870 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 10970 5455 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 5900 50  0001 C CNN
+F 3 "" H 11300 5900 50  0001 C CNN
+	1    11300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J2
+U 2 1 C3E7633A
+P 11300 6000
+F 0 "J2" H 11400 5970 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 6055 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 6000 50  0001 C CNN
+F 3 "" H 11300 6000 50  0001 C CNN
+	2    11300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J2
+U 3 1 C3E7633E
+P 11300 6100
+F 0 "J2" H 11400 6070 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 6155 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 6100 50  0001 C CNN
+F 3 "" H 11300 6100 50  0001 C CNN
+	3    11300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_4DROIT J2
+U 4 1 C3E76322
+P 11300 6200
+F 0 "J2" H 11400 6170 51  0000 L BNN
+F 1 "MOLEX_4DROIT" H 11270 6255 59  0001 L BNN
+F 2 "Carte Principale:CON_4_DROIT" H 11300 6200 50  0001 C CNN
+F 3 "" H 11300 6200 50  0001 C CNN
+	4    11300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:DRV8825 U$1
+U 1 1 89E33A62
+P 9800 4100
+F 0 "U$1" H 9800 4100 50  0001 C CNN
+F 1 "DRV8825" H 9800 4100 50  0001 C CNN
+F 2 "Carte Principale:DRV8825" H 9800 4100 50  0001 C CNN
+F 3 "" H 9800 4100 50  0001 C CNN
+F 4 "unknown" H 9800 4100 50  0001 L BNN "OC_FARNELL"
+	1    9800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:DRV8825 U$2
+U 1 1 87B7DF34
+P 9800 5600
+F 0 "U$2" H 9800 5600 50  0001 C CNN
+F 1 "DRV8825" H 9800 5600 50  0001 C CNN
+F 2 "Carte Principale:DRV8825" H 9800 5600 50  0001 C CNN
+F 3 "" H 9800 5600 50  0001 C CNN
+F 4 "unknown" H 9800 5600 50  0001 L BNN "OC_FARNELL"
+	1    9800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND05
+U 1 1 5B6A58CA
+P 12000 6600
+F 0 "#GND05" H 12000 6600 50  0001 C CNN
+F 1 "GND" H 11900 6500 59  0000 L BNN
+F 2 "" H 12000 6600 50  0001 C CNN
+F 3 "" H 12000 6600 50  0001 C CNN
+	1    12000 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND06
+U 1 1 F6847280
+P 2300 5300
+F 0 "#GND06" H 2300 5300 50  0001 C CNN
+F 1 "GND" H 2200 5200 59  0000 L BNN
+F 2 "" H 2300 5300 50  0001 C CNN
+F 3 "" H 2300 5300 50  0001 C CNN
+	1    2300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V05
+U 1 1 54464806
+P 2300 4500
+F 0 "#+3V05" H 2300 4500 50  0001 C CNN
+F 1 "+3V3" V 2200 4500 59  0000 L BNN
+F 2 "" H 2300 4500 50  0001 C CNN
+F 3 "" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+12V #P+02
+U 1 1 637B3A6A
+P 12000 4000
+F 0 "#P+02" H 12000 4000 50  0001 C CNN
+F 1 "+12V" V 11900 4100 59  0000 L BNN
+F 2 "" H 12000 4000 50  0001 C CNN
+F 3 "" H 12000 4000 50  0001 C CNN
+	1    12000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+12V #P+03
+U 1 1 48C2C5DB
+P 12000 5500
+F 0 "#P+03" H 12000 5500 50  0001 C CNN
+F 1 "+12V" V 11900 5600 59  0000 L BNN
+F 2 "" H 12000 5500 50  0001 C CNN
+F 3 "" H 12000 5500 50  0001 C CNN
+	1    12000 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:SN65HVD232D IC2
+U 1 1 BC34DC86
+P 4600 5600
+F 0 "IC2" H 4850 5800 59  0000 L CNN
+F 1 "SN65HVD232D" H 4850 5100 59  0000 L CNN
+F 2 "Carte Principale:SOIC127P600X175-8N" H 4600 5600 50  0001 C CNN
+F 3 "" H 4600 5600 50  0001 C CNN
+F 4 "unknown" H 4600 5600 59  0001 L BNN "OC_FARNELL"
+	1    4600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R1
+U 1 1 6781471C
+P 6800 6000
+F 0 "R1" H 6750 6059 59  0000 L BNN
+F 1 "120" H 6750 5870 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 6800 6000 50  0001 C CNN
+F 3 "" H 6800 6000 50  0001 C CNN
+F 4 "unknown" V 6800 6000 59  0001 R TNN "OC_FARNELL"
+	1    6800 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:SJ SJ1
+U 1 1 666E743F
+P 6800 5500
+F 0 "SJ1" H 6700 5600 59  0000 L BNN
+F 1 "SJ" H 6700 5350 59  0000 L BNN
+F 2 "Carte Principale:SJ" H 6800 5500 50  0001 C CNN
+F 3 "" H 6800 5500 50  0001 C CNN
+F 4 "unknown" V 6800 5500 59  0001 R TNN "OC_FARNELL"
+	1    6800 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C2
+U 1 1 AEC71D01
+P 3900 5700
+F 0 "C2" H 3960 5715 59  0000 L BNN
+F 1 "100n" H 3960 5515 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 3900 5700 50  0001 C CNN
+F 3 "" H 3900 5700 50  0001 C CNN
+F 4 "DURATOOL" H 3900 5700 59  0001 L BNN "MF"
+F 5 "DT000363" H 3900 5700 59  0001 L BNN "MPN"
+F 6 "2918432" H 3900 5700 59  0001 L BNN "OC_FARNELL"
+	1    3900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:434111025826 S3
+U 1 1 638E9151
+P 9500 3000
+F 0 "S3" H 9450 3040 59  0000 L BNN
+F 1 "434111025826" H 9300 2880 59  0000 L BNN
+F 2 "Carte Principale:434111025826" H 9500 3000 50  0001 C CNN
+F 3 "" H 9500 3000 50  0001 C CNN
+F 4 "unknown" V 9500 3000 59  0001 R TNN "OC_FARNELL"
+	1    9500 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+12V #P+06
+U 1 1 4B6CF0C8
+P 2800 3200
+F 0 "#P+06" H 2800 3200 50  0001 C CNN
+F 1 "+12V" V 2700 3300 59  0000 L BNN
+F 2 "" H 2800 3200 50  0001 C CNN
+F 3 "" H 2800 3200 50  0001 C CNN
+	1    2800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R2
+U 1 1 855FDFDB
+P 2100 2300
+F 0 "R2" H 1950 2359 59  0000 L BNN
+F 1 "R-EU_R0805" H 1950 2170 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 2100 2300 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+F 4 "unknown" V 2100 2300 59  0001 L BNN "OC_FARNELL"
+	1    2100 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R3
+U 1 1 A00BD228
+P 2600 3600
+F 0 "R3" H 2450 3659 59  0000 L BNN
+F 1 "R-EU_R0805" H 2450 3470 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 2600 3600 50  0001 C CNN
+F 3 "" H 2600 3600 50  0001 C CNN
+F 4 "unknown" V 2600 3600 59  0001 R TNN "OC_FARNELL"
+	1    2600 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND024
+U 1 1 157BD418
+P 12000 5100
+F 0 "#GND024" H 12000 5100 50  0001 C CNN
+F 1 "GND" H 11900 5000 59  0000 L BNN
+F 2 "" H 12000 5100 50  0001 C CNN
+F 3 "" H 12000 5100 50  0001 C CNN
+	1    12000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:XBEE U$12
+U 1 1 FCFA34DC
+P 10700 2800
+F 0 "U$12" H 10600 2100 64  0000 L BNN
+F 1 "XBEE" H 10700 2800 50  0001 C CNN
+F 2 "Carte Principale:XBEE" H 10700 2800 50  0001 C CNN
+F 3 "" H 10700 2800 50  0001 C CNN
+F 4 "unknown" H 10700 2800 50  0001 L BNN "OC_FARNELL"
+	1    10700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND025
+U 1 1 F212C7DE
+P 9100 3500
+F 0 "#GND025" H 9100 3500 50  0001 C CNN
+F 1 "GND" H 9000 3400 59  0000 L BNN
+F 2 "" H 9100 3500 50  0001 C CNN
+F 3 "" H 9100 3500 50  0001 C CNN
+	1    9100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V03
+U 1 1 EB5F8C4A
+P 9100 2200
+F 0 "#+3V03" H 9100 2200 50  0001 C CNN
+F 1 "+3V3" V 9100 2200 59  0000 L BNN
+F 2 "" H 9100 2200 50  0001 C CNN
+F 3 "" H 9100 2200 50  0001 C CNN
+	1    9100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND03
+U 1 1 21137572
+P 2800 4300
+F 0 "#GND03" H 2800 4300 50  0001 C CNN
+F 1 "GND" H 2700 4200 59  0000 L BNN
+F 2 "" H 2800 4300 50  0001 C CNN
+F 3 "" H 2800 4300 50  0001 C CNN
+	1    2800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R5
+U 1 1 CAE48B39
+P 8800 2500
+F 0 "R5" H 8950 2441 59  0000 R TNN
+F 1 "R-EU_R0805" H 8650 2370 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 8800 2500 50  0001 C CNN
+F 3 "" H 8800 2500 50  0001 C CNN
+F 4 "unknown" V 8800 2500 59  0001 L BNN "OC_FARNELL"
+	1    8800 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R8
+U 1 1 3B37D644
+P 8500 2500
+F 0 "R8" H 8650 2441 59  0000 R TNN
+F 1 "R-EU_R0805" H 8350 2370 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 8500 2500 50  0001 C CNN
+F 3 "" H 8500 2500 50  0001 C CNN
+F 4 "unknown" V 8500 2500 59  0001 L BNN "OC_FARNELL"
+	1    8500 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:LEDCHIPLED_0805 RX1
+U 1 1 249BA167
+P 8500 2900
+F 0 "RX1" V 8640 2720 59  0000 L BNN
+F 1 "LEDCHIPLED_0805" V 8725 2720 59  0000 L BNN
+F 2 "Carte Principale:CHIPLED_0805" H 8500 2900 50  0001 C CNN
+F 3 "" H 8500 2900 50  0001 C CNN
+F 4 "unknown" V 8500 2900 59  0001 L BNN "OC_FARNELL"
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:LEDCHIPLED_0805 TX1
+U 1 1 73929B28
+P 8800 2900
+F 0 "TX1" V 8940 2720 59  0000 L BNN
+F 1 "LEDCHIPLED_0805" V 9025 2720 59  0000 L BNN
+F 2 "Carte Principale:CHIPLED_0805" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+F 4 "unknown" V 8800 2900 59  0001 L BNN "OC_FARNELL"
+	1    8800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V011
+U 1 1 A89F4FA3
+P 8400 2100
+F 0 "#+3V011" H 8400 2100 50  0001 C CNN
+F 1 "+3V3" V 8300 2100 59  0000 L BNN
+F 2 "" H 8400 2100 50  0001 C CNN
+F 3 "" H 8400 2100 50  0001 C CNN
+	1    8400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V010
+U 1 1 A80C603B
+P 3600 5900
+F 0 "#+3V010" H 3600 5900 50  0001 C CNN
+F 1 "+3V3" V 3500 5900 59  0000 L BNN
+F 2 "" H 3600 5900 50  0001 C CNN
+F 3 "" H 3600 5900 50  0001 C CNN
+	1    3600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND01
+U 1 1 8DA2BB24
+P 3600 5600
+F 0 "#GND01" H 3600 5600 50  0001 C CNN
+F 1 "GND" H 3500 5500 59  0000 L BNN
+F 2 "" H 3600 5600 50  0001 C CNN
+F 3 "" H 3600 5600 50  0001 C CNN
+	1    3600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J10
+U 1 1 D0FB6547
+P 1500 5100
+F 0 "J10" H 1600 5070 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1070 5155 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5100 50  0001 C CNN
+F 3 "" H 1500 5100 50  0001 C CNN
+	1    1500 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J10
+U 2 1 D0FB654B
+P 1500 5000
+F 0 "J10" H 1600 4970 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 5055 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5000 50  0001 C CNN
+F 3 "" H 1500 5000 50  0001 C CNN
+	2    1500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J10
+U 3 1 D0FB654F
+P 1500 4900
+F 0 "J10" H 1600 4870 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 4955 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 4900 50  0001 C CNN
+F 3 "" H 1500 4900 50  0001 C CNN
+	3    1500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J10
+U 4 1 D0FB6553
+P 1500 4800
+F 0 "J10" H 1600 4770 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 4855 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 4800 50  0001 C CNN
+F 3 "" H 1500 4800 50  0001 C CNN
+	4    1500 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J10
+U 5 1 D0FB6557
+P 1500 4700
+F 0 "J10" H 1600 4670 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 4755 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 4700 50  0001 C CNN
+F 3 "" H 1500 4700 50  0001 C CNN
+	5    1500 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J11
+U 1 1 54BD1E4C
+P 1500 6000
+F 0 "J11" H 1600 5970 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1070 6055 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 6000 50  0001 C CNN
+F 3 "" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J11
+U 2 1 54BD1E40
+P 1500 5900
+F 0 "J11" H 1600 5870 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 5955 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5900 50  0001 C CNN
+F 3 "" H 1500 5900 50  0001 C CNN
+	2    1500 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J11
+U 3 1 54BD1E44
+P 1500 5800
+F 0 "J11" H 1600 5770 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 5855 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5800 50  0001 C CNN
+F 3 "" H 1500 5800 50  0001 C CNN
+	3    1500 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J11
+U 4 1 54BD1E58
+P 1500 5700
+F 0 "J11" H 1600 5670 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 5755 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5700 50  0001 C CNN
+F 3 "" H 1500 5700 50  0001 C CNN
+	4    1500 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:22-?-0527-2051 J11
+U 5 1 54BD1E5C
+P 1500 5600
+F 0 "J11" H 1600 5570 51  0000 L BNN
+F 1 "22-?-0527-2051" H 1470 5655 59  0001 L BNN
+F 2 "Carte Principale:6410-05" H 1500 5600 50  0001 C CNN
+F 3 "" H 1500 5600 50  0001 C CNN
+	5    1500 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND04
+U 1 1 12C122FD
+P 2300 6200
+F 0 "#GND04" H 2300 6200 50  0001 C CNN
+F 1 "GND" H 2200 6100 59  0000 L BNN
+F 2 "" H 2300 6200 50  0001 C CNN
+F 3 "" H 2300 6200 50  0001 C CNN
+	1    2300 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V012
+U 1 1 34CFF32A
+P 2300 5500
+F 0 "#+3V012" H 2300 5500 50  0001 C CNN
+F 1 "+3V3" V 2200 5500 59  0000 L BNN
+F 2 "" H 2300 5500 50  0001 C CNN
+F 3 "" H 2300 5500 50  0001 C CNN
+	1    2300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C3
+U 1 1 EE7D9419
+P 2100 4900
+F 0 "C3" H 2160 4915 59  0000 L BNN
+F 1 "100n" H 2160 4715 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 2100 4900 50  0001 C CNN
+F 3 "" H 2100 4900 50  0001 C CNN
+F 4 "DURATOOL" H 2100 4900 59  0001 L BNN "MF"
+F 5 "DT000363" H 2100 4900 59  0001 L BNN "MPN"
+F 6 "2918432" H 2100 4900 59  0001 L BNN "OC_FARNELL"
+	1    2100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C4
+U 1 1 65EC1BA2
+P 2100 5800
+F 0 "C4" H 2160 5815 59  0000 L BNN
+F 1 "100n" H 2160 5615 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 2100 5800 50  0001 C CNN
+F 3 "" H 2100 5800 50  0001 C CNN
+F 4 "DURATOOL" H 2100 5800 59  0001 L BNN "MF"
+F 5 "DT000363" H 2100 5800 59  0001 L BNN "MPN"
+F 6 "2918432" H 2100 5800 59  0001 L BNN "OC_FARNELL"
+	1    2100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C5
+U 1 1 4DEA9544
+P 9100 2800
+F 0 "C5" H 9160 2815 59  0000 L BNN
+F 1 "100n" H 9160 2615 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 9100 2800 50  0001 C CNN
+F 3 "" H 9100 2800 50  0001 C CNN
+F 4 "DURATOOL" H 9100 2800 59  0001 L BNN "MF"
+F 5 "DT000363" H 9100 2800 59  0001 L BNN "MPN"
+F 6 "2918432" H 9100 2800 59  0001 L BNN "OC_FARNELL"
+	1    9100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:LEDCHIPLED_0805 LED7
+U 1 1 80FA1933
+P 2600 3900
+F 0 "LED7" V 2740 3720 59  0000 L BNN
+F 1 "LEDCHIPLED_0805" V 2825 3720 59  0000 L BNN
+F 2 "Carte Principale:CHIPLED_0805" H 2600 3900 50  0001 C CNN
+F 3 "" H 2600 3900 50  0001 C CNN
+F 4 "unknown" V 2600 3900 59  0001 L BNN "OC_FARNELL"
+	1    2600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:LEDCHIPLED_0805 LED6
+U 1 1 3E6DA659
+P 2100 2600
+F 0 "LED6" V 2240 2420 59  0000 L BNN
+F 1 "LEDCHIPLED_0805" V 2325 2420 59  0000 L BNN
+F 2 "Carte Principale:CHIPLED_0805" H 2100 2600 50  0001 C CNN
+F 3 "" H 2100 2600 50  0001 C CNN
+F 4 "unknown" V 2100 2600 59  0001 L BNN "OC_FARNELL"
+	1    2100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J3
+U 1 1 B665FDA9
+P 7400 3200
+F 0 "J3" H 7500 3170 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7370 3255 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7400 3200 50  0001 C CNN
+F 3 "" H 7400 3200 50  0001 C CNN
+	1    7400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J3
+U 2 1 B665FDA5
+P 7400 3300
+F 0 "J3" H 7500 3270 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7370 3355 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7400 3300 50  0001 C CNN
+F 3 "" H 7400 3300 50  0001 C CNN
+	2    7400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J3
+U 3 1 B665FDA1
+P 7400 3400
+F 0 "J3" H 7500 3370 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7370 3455 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7400 3400 50  0001 C CNN
+F 3 "" H 7400 3400 50  0001 C CNN
+	3    7400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND07
+U 1 1 C2693486
+P 7200 3600
+F 0 "#GND07" H 7200 3600 50  0001 C CNN
+F 1 "GND" H 7100 3500 59  0000 L BNN
+F 2 "" H 7200 3600 50  0001 C CNN
+F 3 "" H 7200 3600 50  0001 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND09
+U 1 1 FD0A31A1
+P 1300 2900
+F 0 "#GND09" H 1300 2900 50  0001 C CNN
+F 1 "GND" H 1200 2800 59  0000 L BNN
+F 2 "" H 1300 2900 50  0001 C CNN
+F 3 "" H 1300 2900 50  0001 C CNN
+	1    1300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:CONDO2-5 U$13
+U 1 1 33430DC8
+P 1700 2400
+F 0 "U$13" H 1745 2419 59  0000 L BNN
+F 1 "CONDO2-5" H 1445 2219 59  0000 L BNN
+F 2 "Carte Principale:E2-5" H 1700 2400 50  0001 C CNN
+F 3 "" H 1700 2400 50  0001 C CNN
+	1    1700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:TPB1,27 C_TX1
+U 1 1 CD76B7C2
+P 4500 5500
+F 0 "C_TX1" H 4450 5550 59  0000 L BNN
+F 1 "TPB1,27" H 4500 5500 50  0001 C CNN
+F 2 "Carte Principale:B1,27" H 4500 5500 50  0001 C CNN
+F 3 "" H 4500 5500 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:TPB1,27 C_RX1
+U 1 1 D53038BD
+P 4500 6000
+F 0 "C_RX1" H 4450 6050 59  0000 L BNN
+F 1 "TPB1,27" H 4500 6000 50  0001 C CNN
+F 2 "Carte Principale:B1,27" H 4500 6000 50  0001 C CNN
+F 3 "" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:TPB1,27 CANH1
+U 1 1 726EB0B6
+P 6900 5200
+F 0 "CANH1" H 6850 5250 59  0000 L BNN
+F 1 "TPB1,27" H 6900 5200 50  0001 C CNN
+F 2 "Carte Principale:B1,27" H 6900 5200 50  0001 C CNN
+F 3 "" H 6900 5200 50  0001 C CNN
+	1    6900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:TPB1,27 CANL1
+U 1 1 ED675305
+P 6900 6300
+F 0 "CANL1" H 6850 6350 59  0000 L BNN
+F 1 "TPB1,27" H 6900 6300 50  0001 C CNN
+F 2 "Carte Principale:B1,27" H 6900 6300 50  0001 C CNN
+F 3 "" H 6900 6300 50  0001 C CNN
+	1    6900 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J4
+U 1 1 FA7CA15B
+P 7800 5200
+F 0 "J4" H 7900 5170 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 5255 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 5200 50  0001 C CNN
+F 3 "" H 7800 5200 50  0001 C CNN
+	1    7800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J4
+U 2 1 FA7CA157
+P 7800 5300
+F 0 "J4" H 7900 5270 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 5355 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 5300 50  0001 C CNN
+F 3 "" H 7800 5300 50  0001 C CNN
+	2    7800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J4
+U 3 1 FA7CA153
+P 7800 5400
+F 0 "J4" H 7900 5370 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 5455 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 5400 50  0001 C CNN
+F 3 "" H 7800 5400 50  0001 C CNN
+	3    7800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J5
+U 1 1 7C49DE93
+P 7800 4800
+F 0 "J5" H 7900 4770 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 4855 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 4800 50  0001 C CNN
+F 3 "" H 7800 4800 50  0001 C CNN
+	1    7800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J5
+U 2 1 7C49DE9F
+P 7800 4900
+F 0 "J5" H 7900 4870 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 4955 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 4900 50  0001 C CNN
+F 3 "" H 7800 4900 50  0001 C CNN
+	2    7800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:MOLEX_3DROIT J5
+U 3 1 7C49DE9B
+P 7800 5000
+F 0 "J5" H 7900 4970 51  0000 L BNN
+F 1 "MOLEX_3DROIT" H 7770 5055 59  0001 L BNN
+F 2 "Carte Principale:CON_3_DROIT" H 7800 5000 50  0001 C CNN
+F 3 "" H 7800 5000 50  0001 C CNN
+	3    7800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND02
+U 1 1 4877C9E2
+P 7600 5600
+F 0 "#GND02" H 7600 5600 50  0001 C CNN
+F 1 "GND" H 7500 5500 59  0000 L BNN
+F 2 "" H 7600 5600 50  0001 C CNN
+F 3 "" H 7600 5600 50  0001 C CNN
+	1    7600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+12V #P+01
+U 1 1 6A081B6E
+P 7500 4600
+F 0 "#P+01" H 7500 4600 50  0001 C CNN
+F 1 "+12V" V 7400 4700 59  0000 L BNN
+F 2 "" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:TEENSY_3.5_3.6_BASIC U$5
+U 1 1 BCE09641
+P 5500 3000
+F 0 "U$5" H 5500 3000 50  0001 C CNN
+F 1 "TEENSY_3.5_3.6_BASIC" H 5500 3000 50  0001 C CNN
+F 2 "Carte Principale:TEENSY_3.5_3.6_BASIC" H 5500 3000 50  0001 C CNN
+F 3 "" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND010
+U 1 1 0087CD10
+P 3700 2700
+F 0 "#GND010" H 3700 2700 50  0001 C CNN
+F 1 "GND" H 3600 2600 59  0000 L BNN
+F 2 "" H 3700 2700 50  0001 C CNN
+F 3 "" H 3700 2700 50  0001 C CNN
+	1    3700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C1
+U 1 1 CA43AFB1
+P 4100 2100
+F 0 "C1" H 4160 2115 59  0000 L BNN
+F 1 "100n" H 4160 1915 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 4100 2100 50  0001 C CNN
+F 3 "" H 4100 2100 50  0001 C CNN
+F 4 "DURATOOL" H 4100 2100 59  0001 L BNN "MF"
+F 5 "DT000363" H 4100 2100 59  0001 L BNN "MPN"
+F 6 "2918432" H 4100 2100 59  0001 L BNN "OC_FARNELL"
+	1    4100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:C-EUC0805 C6
+U 1 1 E24BCDB6
+P 4400 2100
+F 0 "C6" H 4460 2115 59  0000 L BNN
+F 1 "100n" H 4460 1915 59  0000 L BNN
+F 2 "Carte Principale:C0805" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+F 4 "DURATOOL" H 4400 2100 59  0001 L BNN "MF"
+F 5 "DT000363" H 4400 2100 59  0001 L BNN "MPN"
+F 6 "2918432" H 4400 2100 59  0001 L BNN "OC_FARNELL"
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND011
+U 1 1 5518330F
+P 6600 4100
+F 0 "#GND011" H 6600 4100 50  0001 C CNN
+F 1 "GND" H 6500 4000 59  0000 L BNN
+F 2 "" H 6600 4100 50  0001 C CNN
+F 3 "" H 6600 4100 50  0001 C CNN
+	1    6600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:WE-TVS_SOT23-3L_824022 D1
+U 1 1 962EF451
+P 6200 5700
+F 0 "D1" H 6199 5903 42  0000 C BNN
+F 1 "5Vdc" H 6070 5450 42  0000 L BNN
+F 2 "Carte Principale:WE-TVS_SOT23-3L" H 6200 5700 50  0001 C CNN
+F 3 "" H 6200 5700 50  0001 C CNN
+	1    6200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:GND #GND08
+U 1 1 E3161DBF
+P 6500 5900
+F 0 "#GND08" H 6500 5900 50  0001 C CNN
+F 1 "GND" H 6400 5800 59  0000 L BNN
+F 2 "" H 6500 5900 50  0001 C CNN
+F 3 "" H 6500 5900 50  0001 C CNN
+	1    6500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:CPOL-EUE2.5-7 C7
+U 1 1 AD796150
+P 12000 6000
+F 0 "C7" H 12045 6019 59  0000 L BNN
+F 1 "100µ" H 12045 5819 59  0000 L BNN
+F 2 "Carte Principale:E2,5-7" H 12000 6000 50  0001 C CNN
+F 3 "" H 12000 6000 50  0001 C CNN
+	1    12000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:CPOL-EUE2.5-7 C8
+U 1 1 CBC339C7
+P 12000 4500
+F 0 "C8" H 12045 4519 59  0000 L BNN
+F 1 "100µ" H 12045 4319 59  0000 L BNN
+F 2 "Carte Principale:E2,5-7" H 12000 4500 50  0001 C CNN
+F 3 "" H 12000 4500 50  0001 C CNN
+	1    12000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R4
+U 1 1 05722444
+P 6700 2900
+F 0 "R4" H 6650 2959 59  0000 L BNN
+F 1 "4.7k" H 6650 2770 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 6700 2900 50  0001 C CNN
+F 3 "" H 6700 2900 50  0001 C CNN
+F 4 "unknown" V 6700 2900 59  0001 R TNN "OC_FARNELL"
+	1    6700 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:R-EU_R0805 R6
+U 1 1 A40A9EB3
+P 7000 2900
+F 0 "R6" H 6950 2959 59  0000 L BNN
+F 1 "4.7k" H 6950 2770 59  0000 L BNN
+F 2 "Carte Principale:R0805" H 7000 2900 50  0001 C CNN
+F 3 "" H 7000 2900 50  0001 C CNN
+F 4 "unknown" V 7000 2900 59  0001 R TNN "OC_FARNELL"
+	1    7000 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V02
+U 1 1 816AD438
+P 6700 2400
+F 0 "#+3V02" H 6700 2400 50  0001 C CNN
+F 1 "+3V3" V 6600 2400 59  0000 L BNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+5V #P+04
+U 1 1 459FCD94
+P 3700 1500
+F 0 "#P+04" H 3700 1500 50  0001 C CNN
+F 1 "+5V" V 3600 1300 59  0000 L BNN
+F 2 "" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0001 C CNN
+	1    3700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:62000411622 J9
+U 1 1 03AFB804
+P 900 2500
+F 0 "J9" H 1200 2434 34  0000 L BNN
+F 1 "62000411622" H 1190 2379 34  0000 L BNN
+F 2 "Carte Principale:62000411622" H 900 2500 50  0001 C CNN
+F 3 "" H 900 2500 50  0001 C CNN
+	1    900  2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:62000411622 J13
+U 1 1 3CBAA3AC
+P 2900 2500
+F 0 "J13" H 3200 2435 34  0000 L BNN
+F 1 "62000411622" H 3190 2380 34  0000 L BNN
+F 2 "Carte Principale:62000411622" H 2900 2500 50  0001 C CNN
+F 3 "" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:3557-2 F1
+U 1 1 BAEBDDEB
+P 2200 3400
+F 0 "F1" H 2050 3455 59  0000 L BNN
+F 1 "3557-2" H 2050 3284 59  0000 L BNN
+F 2 "Carte Principale:FUSE_3557-2" H 2200 3400 50  0001 C CNN
+F 3 "" H 2200 3400 50  0001 C CNN
+	1    2200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+5V #P+05
+U 1 1 57F4DC09
+P 1300 1900
+F 0 "#P+05" H 1300 1900 50  0001 C CNN
+F 1 "+5V" V 1200 1700 59  0000 L BNN
+F 2 "" H 1300 1900 50  0001 C CNN
+F 3 "" H 1300 1900 50  0001 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:645002117322 J6
+U 1 1 C649B669
+P 1600 3600
+F 0 "J6" H 1521 3562 34  0000 R BNN
+F 1 "645002117322" H 1523 3499 34  0000 R BNN
+F 2 "Carte Principale:645002117322" H 1600 3600 50  0001 C CNN
+F 3 "" H 1600 3600 50  0001 C CNN
+	1    1600 3600
+	0    -1   1    0   
+$EndComp
+Text Notes 1000 5500 0    59   ~ 0
+Entrée Encodeur Gauche
+Text Notes 1000 4600 0    59   ~ 0
+Entrée Encodeur Droit
+Text Notes 11000 4100 0    59   ~ 0
+Sortie Moteur Gauche
+Text Notes 11000 5600 0    59   ~ 0
+Sortie Moteur Droit
+Text Notes 10000 2000 0    59   ~ 0
+Xbee
+Text Notes 9800 4000 0    59   ~ 0
+Driver Moteur Gauche
+Text Notes 9800 5500 0    59   ~ 0
+Driver Moteur Droit
+Text Notes 4800 5300 0    59   ~ 0
+Transceiver CAN 
+Text Notes 1200 3300 0    59   ~ 0
+Entrée 12V
+Text Notes 1500 1900 0    59   ~ 0
+Entrée 3.3V et CAN
+Text Notes 8500 2200 0    59   ~ 0
+LEDs Xbee
+Text Notes 7100 3100 0    59   ~ 0
+I2c
+Text Notes 7700 4600 0    59   ~ 0
+Ventillateurs
+Text Notes 3900 1700 0    59   ~ 0
+Alimentation 5V
+Wire Wire Line
+	4700 2600 4200 2600
+Wire Wire Line
+	6300 4700 6700 4700
+Wire Wire Line
+	6300 4800 6700 4800
+Text Label 6700 4700 0    50   ~ 0
+RX_extern
+Text Label 6700 4800 0    50   ~ 0
+TX_extern
+$Comp
+L Connector:Conn_01x04_Male J7
+U 1 1 616FC6BF
+P 7600 4050
+F 0 "J7" H 7708 4331 50  0000 C CNN
+F 1 "Serial extern" H 7708 4240 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7600 4050 50  0001 C CNN
+F 3 "~" H 7600 4050 50  0001 C CNN
+	1    7600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3950 8000 3950
+Wire Wire Line
+	7800 4050 8000 4050
+Wire Wire Line
+	7800 4150 8000 4150
+Wire Wire Line
+	7800 4250 8000 4250
+Text Label 8000 4050 0    50   ~ 0
+RX_extern
+Text Label 8000 4150 0    50   ~ 0
+TX_extern
+$Comp
+L Carte_Principale-eagle-import:GND #GND012
+U 1 1 61736FEB
+P 8000 4350
+F 0 "#GND012" H 8000 4350 50  0001 C CNN
+F 1 "GND" H 7900 4250 59  0000 L BNN
+F 2 "" H 8000 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Carte_Principale-eagle-import:+3V3 #+3V01
+U 1 1 617389C5
+P 8000 3850
+F 0 "#+3V01" H 8000 3850 50  0001 C CNN
+F 1 "+3V3" V 7900 3850 59  0000 L BNN
+F 2 "" H 8000 3850 50  0001 C CNN
+F 3 "" H 8000 3850 50  0001 C CNN
+	1    8000 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
