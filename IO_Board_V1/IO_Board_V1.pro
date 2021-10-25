@@ -1,4 +1,4 @@
-update=24/10/2021 23:12:59
+update=23/10/2021 21:59:01
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
@@ -25,9 +25,9 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=PCB_Pompe_V2.net
+LastNetListRead=IO_Board_V1.net
 CopperLayerCount=2
-BoardThickness=1.6002
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=1
@@ -43,6 +43,7 @@ TrackWidth2=0.15
 TrackWidth3=0.2
 TrackWidth4=0.4
 TrackWidth5=0.6
+TrackWidth6=1
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6
@@ -77,7 +78,7 @@ SolderMaskMinWidth=0.12
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=Front
+Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
@@ -201,13 +202,13 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=Back
+Name=B.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.B.Paste]
 Enabled=1
 [pcbnew/Layer.F.Paste]
@@ -225,9 +226,9 @@ Enabled=1
 [pcbnew/Layer.Cmts.User]
 Enabled=1
 [pcbnew/Layer.Eco1.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Eco2.User]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
