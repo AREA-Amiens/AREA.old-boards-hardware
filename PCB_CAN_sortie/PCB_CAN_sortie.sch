@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 617A9BAD
+P 2950 3650
+F 0 "J2" H 3058 3931 50  0000 C CNN
+F 1 "CAN" H 3058 3840 50  0000 C CNN
+F 2 "AREA_lib_Connector:690367290476" H 2950 3650 50  0001 C CNN
+F 3 "~" H 2950 3650 50  0001 C CNN
+	1    2950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 617AA3A5
+P 2950 2800
+F 0 "J1" H 3058 3081 50  0000 C CNN
+F 1 "CAN" H 3058 2990 50  0000 C CNN
+F 2 "AREA_lib_Connector:690367290476" H 2950 2800 50  0001 C CNN
+F 3 "~" H 2950 2800 50  0001 C CNN
+	1    2950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2700 3400 2700
+Wire Wire Line
+	3150 2800 3400 2800
+Wire Wire Line
+	3150 2900 3400 2900
+Wire Wire Line
+	3150 3000 3400 3000
+Wire Wire Line
+	3150 3550 3400 3550
+Wire Wire Line
+	3150 3650 3400 3650
+Wire Wire Line
+	3150 3750 3400 3750
+Wire Wire Line
+	3150 3850 3400 3850
+$Comp
+L power:GND #PWR02
+U 1 1 617AB754
+P 3400 3000
+F 0 "#PWR02" H 3400 2750 50  0001 C CNN
+F 1 "GND" H 3405 2827 50  0000 C CNN
+F 2 "" H 3400 3000 50  0001 C CNN
+F 3 "" H 3400 3000 50  0001 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 617ABEDD
+P 3400 3850
+F 0 "#PWR04" H 3400 3600 50  0001 C CNN
+F 1 "GND" H 3405 3677 50  0000 C CNN
+F 2 "" H 3400 3850 50  0001 C CNN
+F 3 "" H 3400 3850 50  0001 C CNN
+	1    3400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 617AC670
+P 3400 2700
+F 0 "#PWR01" H 3400 2550 50  0001 C CNN
+F 1 "+5V" H 3415 2873 50  0000 C CNN
+F 2 "" H 3400 2700 50  0001 C CNN
+F 3 "" H 3400 2700 50  0001 C CNN
+	1    3400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 617AD1F5
+P 3400 3550
+F 0 "#PWR03" H 3400 3400 50  0001 C CNN
+F 1 "+5V" H 3415 3723 50  0000 C CNN
+F 2 "" H 3400 3550 50  0001 C CNN
+F 3 "" H 3400 3550 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Text Label 3400 2800 0    50   ~ 0
+CANH
+Text Label 3400 3650 0    50   ~ 0
+CANH
+Text Label 3400 2900 0    50   ~ 0
+CANL
+Text Label 3400 3750 0    50   ~ 0
+CANL
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 617B2147
+P 4700 2750
+F 0 "H1" V 4654 2900 50  0000 L CNN
+F 1 "." V 4745 2900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 2750 50  0001 C CNN
+F 3 "~" H 4700 2750 50  0001 C CNN
+	1    4700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 617B286D
+P 4700 2950
+F 0 "H2" V 4654 3100 50  0000 L CNN
+F 1 "." V 4745 3100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 2950 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 617B2C56
+P 4700 3150
+F 0 "H3" V 4654 3300 50  0000 L CNN
+F 1 "." V 4745 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 3150 50  0001 C CNN
+F 3 "~" H 4700 3150 50  0001 C CNN
+	1    4700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 617B3038
+P 4700 3350
+F 0 "H4" V 4654 3500 50  0000 L CNN
+F 1 "." V 4745 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4700 3350 50  0001 C CNN
+F 3 "~" H 4700 3350 50  0001 C CNN
+	1    4700 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2750 4600 2950
+Connection ~ 4600 2950
+Wire Wire Line
+	4600 2950 4600 3150
+Connection ~ 4600 3150
+Wire Wire Line
+	4600 3150 4600 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	4600 3350 4600 3500
+$Comp
+L power:GND #PWR05
+U 1 1 617B3A33
+P 4600 3500
+F 0 "#PWR05" H 4600 3250 50  0001 C CNN
+F 1 "GND" H 4605 3327 50  0000 C CNN
+F 2 "" H 4600 3500 50  0001 C CNN
+F 3 "" H 4600 3500 50  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

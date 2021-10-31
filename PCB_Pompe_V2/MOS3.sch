@@ -1,0 +1,284 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:DMN10H700S Q?
+U 1 1 61C2B8D5
+P 1250 1200
+AR Path="/620606C2/61C2B8D5" Ref="Q?"  Part="1" 
+AR Path="/61C2B8D5" Ref="Q?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8D5" Ref="Q5"  Part="1" 
+F 0 "Q5" H 1454 1246 50  0000 L CNN
+F 1 "DMN10H700S" H 1454 1155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1450 1125 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMN10H700S.pdf" H 1250 1200 50  0001 L CNN
+	1    1250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C2B8DB
+P 1350 1700
+AR Path="/620606C2/61C2B8DB" Ref="#PWR?"  Part="1" 
+AR Path="/61C2B8DB" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8DB" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 1350 1450 50  0001 C CNN
+F 1 "GND" H 1355 1527 50  0000 C CNN
+F 2 "" H 1350 1700 50  0001 C CNN
+F 3 "" H 1350 1700 50  0001 C CNN
+	1    1350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2B8E1
+P 1050 1450
+AR Path="/620606C2/61C2B8E1" Ref="R?"  Part="1" 
+AR Path="/61C2B8E1" Ref="R?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8E1" Ref="R10"  Part="1" 
+F 0 "R10" H 980 1404 50  0000 R CNN
+F 1 "10k" H 980 1495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 980 1450 50  0001 C CNN
+F 3 "~" H 1050 1450 50  0001 C CNN
+	1    1050 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5VP #PWR?
+U 1 1 61C2B8E7
+P 1350 1000
+AR Path="/620606C2/61C2B8E7" Ref="#PWR?"  Part="1" 
+AR Path="/61C2B8E7" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8E7" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 1350 850 50  0001 C CNN
+F 1 "+5VP" H 1365 1173 50  0000 C CNN
+F 2 "" H 1350 1000 50  0001 C CNN
+F 3 "" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61C2B8ED
+P 1350 1550
+AR Path="/620606C2/61C2B8ED" Ref="D?"  Part="1" 
+AR Path="/61C2B8ED" Ref="D?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8ED" Ref="D11"  Part="1" 
+F 0 "D11" V 1304 1630 50  0000 L CNN
+F 1 "D" V 1395 1630 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1350 1550 50  0001 C CNN
+F 3 "~" H 1350 1550 50  0001 C CNN
+	1    1350 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 1350 1400 2    50   Input ~ 0
+OUT_P3
+Text GLabel 1050 1200 0    50   Input ~ 0
+P3
+Wire Wire Line
+	1050 1600 1050 1700
+Wire Wire Line
+	1050 1300 1050 1200
+$Comp
+L Transistor_FET:DMN10H700S Q?
+U 1 1 61C2B8F7
+P 2350 1200
+AR Path="/620606C2/61C2B8F7" Ref="Q?"  Part="1" 
+AR Path="/61C2B8F7" Ref="Q?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8F7" Ref="Q6"  Part="1" 
+F 0 "Q6" H 2554 1246 50  0000 L CNN
+F 1 "DMN10H700S" H 2554 1155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2550 1125 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMN10H700S.pdf" H 2350 1200 50  0001 L CNN
+	1    2350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C2B8FD
+P 2450 1700
+AR Path="/620606C2/61C2B8FD" Ref="#PWR?"  Part="1" 
+AR Path="/61C2B8FD" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C2B8FD" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 2450 1450 50  0001 C CNN
+F 1 "GND" H 2455 1527 50  0000 C CNN
+F 2 "" H 2450 1700 50  0001 C CNN
+F 3 "" H 2450 1700 50  0001 C CNN
+	1    2450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2B903
+P 2150 1450
+AR Path="/620606C2/61C2B903" Ref="R?"  Part="1" 
+AR Path="/61C2B903" Ref="R?"  Part="1" 
+AR Path="/61A9C4B9/61C2B903" Ref="R13"  Part="1" 
+F 0 "R13" H 2080 1404 50  0000 R CNN
+F 1 "10k" H 2080 1495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2080 1450 50  0001 C CNN
+F 3 "~" H 2150 1450 50  0001 C CNN
+	1    2150 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5VP #PWR?
+U 1 1 61C2B909
+P 2450 1000
+AR Path="/620606C2/61C2B909" Ref="#PWR?"  Part="1" 
+AR Path="/61C2B909" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C2B909" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 2450 850 50  0001 C CNN
+F 1 "+5VP" H 2465 1173 50  0000 C CNN
+F 2 "" H 2450 1000 50  0001 C CNN
+F 3 "" H 2450 1000 50  0001 C CNN
+	1    2450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61C2B90F
+P 2450 1550
+AR Path="/620606C2/61C2B90F" Ref="D?"  Part="1" 
+AR Path="/61C2B90F" Ref="D?"  Part="1" 
+AR Path="/61A9C4B9/61C2B90F" Ref="D14"  Part="1" 
+F 0 "D14" V 2404 1630 50  0000 L CNN
+F 1 "D" V 2495 1630 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2450 1550 50  0001 C CNN
+F 3 "~" H 2450 1550 50  0001 C CNN
+	1    2450 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 1400 2    50   Input ~ 0
+OUT_V3
+Text GLabel 2150 1200 0    50   Input ~ 0
+V3
+Wire Wire Line
+	2150 1600 2150 1700
+Wire Wire Line
+	2150 1300 2150 1200
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 61C2B919
+P 3400 1500
+AR Path="/620606C2/61C2B919" Ref="J?"  Part="1" 
+AR Path="/61C2B919" Ref="J?"  Part="1" 
+AR Path="/61A9C4B9/61C2B919" Ref="J5"  Part="1" 
+F 0 "J5" H 3292 1175 50  0000 C CNN
+F 1 "Conn_01x03_Female" H 3292 1266 50  0000 C CNN
+F 2 "AREA_lib_Connector:Wuerth_2.54mm_3pins_61900311121" H 3400 1500 50  0001 C CNN
+F 3 "~" H 3400 1500 50  0001 C CNN
+	1    3400 1500
+	-1   0    0    1   
+$EndComp
+Text GLabel 3600 1400 2    50   Input ~ 0
+OUT_P3
+Text GLabel 3600 1500 2    50   Input ~ 0
+OUT_V3
+$Comp
+L power:GND #PWR?
+U 1 1 61C2B921
+P 3600 1600
+AR Path="/620606C2/61C2B921" Ref="#PWR?"  Part="1" 
+AR Path="/61C2B921" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C2B921" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 3600 1350 50  0001 C CNN
+F 1 "GND" H 3605 1427 50  0000 C CNN
+F 2 "" H 3600 1600 50  0001 C CNN
+F 3 "" H 3600 1600 50  0001 C CNN
+	1    3600 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2450 1700
+Wire Wire Line
+	1050 1700 1350 1700
+Wire Wire Line
+	2150 1700 2450 1700
+Connection ~ 1350 1700
+$Comp
+L Device:R R?
+U 1 1 61C446A6
+P 1700 2350
+AR Path="/61C446A6" Ref="R?"  Part="1" 
+AR Path="/61A9C4B9/61C446A6" Ref="R11"  Part="1" 
+F 0 "R11" V 1493 2350 50  0000 C CNN
+F 1 "560" V 1584 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1630 2350 50  0001 C CNN
+F 3 "~" H 1700 2350 50  0001 C CNN
+	1    1700 2350
+	0    1    1    0   
+$EndComp
+Text GLabel 1250 2350 0    50   Input ~ 0
+OUT_P3
+Text GLabel 1250 2450 0    50   Input ~ 0
+OUT_V3
+Wire Wire Line
+	1850 2400 1850 2450
+Connection ~ 1850 2400
+Wire Wire Line
+	1850 2350 1850 2400
+$Comp
+L power:GND #PWR?
+U 1 1 61C446B1
+P 1850 2400
+AR Path="/61C446B1" Ref="#PWR?"  Part="1" 
+AR Path="/61A9C4B9/61C446B1" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 1850 2150 50  0001 C CNN
+F 1 "GND" H 1855 2227 50  0000 C CNN
+F 2 "" H 1850 2400 50  0001 C CNN
+F 3 "" H 1850 2400 50  0001 C CNN
+	1    1850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C446B7
+P 1700 2450
+AR Path="/61C446B7" Ref="R?"  Part="1" 
+AR Path="/61A9C4B9/61C446B7" Ref="R12"  Part="1" 
+F 0 "R12" V 1493 2450 50  0000 C CNN
+F 1 "560" V 1584 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1630 2450 50  0001 C CNN
+F 3 "~" H 1700 2450 50  0001 C CNN
+	1    1700 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C446BD
+P 1400 2450
+AR Path="/61C446BD" Ref="D?"  Part="1" 
+AR Path="/61A9C4B9/61C446BD" Ref="D13"  Part="1" 
+F 0 "D13" H 1393 2195 50  0000 C CNN
+F 1 "LED_DEBUG" H 1393 2286 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1400 2450 50  0001 C CNN
+F 3 "~" H 1400 2450 50  0001 C CNN
+	1    1400 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C446C3
+P 1400 2350
+AR Path="/61C446C3" Ref="D?"  Part="1" 
+AR Path="/61A9C4B9/61C446C3" Ref="D12"  Part="1" 
+F 0 "D12" H 1393 2095 50  0000 C CNN
+F 1 "LED_DEBUG" H 1393 2186 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1400 2350 50  0001 C CNN
+F 3 "~" H 1400 2350 50  0001 C CNN
+	1    1400 2350
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
